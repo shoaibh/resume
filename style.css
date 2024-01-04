@@ -1,0 +1,147 @@
+body {
+    font-family: Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 25px;
+    font-size: 12px;
+}
+
+.resume-section {
+    margin-bottom: 20px;
+}
+.resume-item {
+    margin-bottom: 10px;
+}
+
+.main{ 
+    max-width: 8.27in;
+     margin:auto;
+     padding: 30px 50px;
+     /* color: #70b0d3;
+     background-color: #245a81; */
+}
+
+a{
+    color: black;
+}
+
+a > span {
+    margin-left: 5px;
+}
+
+.main > div {
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.name {
+    font-size: 28px;
+    color: #003366;
+}
+
+.reactjs {
+    font-size: 16px;
+    color: #0074cc;
+}
+
+.heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #003366;
+    display: inline-block;
+    border-bottom: 2px solid #003366;
+}
+
+.location {
+    min-width: 200px;
+    margin-top: 10px;
+}
+
+.experience_content {
+    margin-bottom: 15px;
+}
+
+.position {
+    display: flex;
+    gap: 20px
+}
+
+.position > span {
+    color: #0074cc;
+}
+
+.company {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 7px;
+}
+
+.company > span {
+    color: #4da6ff;
+    font-size: 14px;
+}
+
+.exact_location {
+    font-size: 12px;
+}
+
+.period {
+    display: flex;
+    font-size: 12px;
+    gap: 30px;
+
+}
+
+.project_header {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.project_name {
+    color: #0074cc;
+}
+
+.project_link {
+    font-size: 12px;
+}
+
+.date {
+    font-size: 12px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.degree{
+   color: #0074cc; 
+   font-size: 16px;
+}
+
+.college {
+    color: #4da6ff;
+    font-size: 14px; 
+    margin-bottom: 5px;
+}
+
+.tags{
+    display: flex;
+    gap: 10px;
+}
+
+.tag {
+    font-size: 14px;
+    border: 1px solid #dbdbdb;
+    border-radius: 6px;
+    padding: 3px 5px;
+    color: #0074cc;
+}
