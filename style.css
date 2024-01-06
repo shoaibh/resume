@@ -1,7 +1,82 @@
 body {
     font-family: Verdana, sans-serif;
     line-height: 1.6;
-    margin: 0;
+    width: 8.27in;
+    margin: auto;
+}
+
+
+.main{ 
+    max-width: 100%;
+     margin:auto;
+     padding: 30px 50px;
+     /* color: #70b0d3;
+     background-color: #245a81; */
+}
+
+@media print {
+    main {
+        width: 8.27in;
+        margin: 1in;
+    }
+
+    ul {
+        padding-left: 25px;
+        font-size: 12px;
+    }
+
+    .name {
+        font-size: 28px;
+    }
+
+    .reactjs {
+        font-size: 16px;
+    }
+
+    .location {
+        min-width: 16px;
+    }
+
+    .resume-line {
+        font-size: 12px;
+
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    .date {
+        font-size: 12px;
+    }
+
+    .company > span {
+        font-size: 14px;
+    }
+
+    .tag {
+        font-size: 14px;
+    }
+
+    .project_header{
+        gap: 16px;
+    }
+
+    .project_name {
+        font-size: 14px;
+    }
+
+    .project_link {
+        font-size: 12px;
+    }
+
+    .degree {
+        font-size: 16px;
+    }
+    .college {
+        font-size: 14px;
+    }
+
 }
 
 ul {
@@ -10,6 +85,8 @@ ul {
     font-size: 12px;
 }
 
+
+
 .resume-section {
     margin-bottom: 20px;
 }
@@ -17,13 +94,6 @@ ul {
     margin-bottom: 10px;
 }
 
-.main{ 
-    max-width: 8.27in;
-     margin:auto;
-     padding: 30px 50px;
-     /* color: #70b0d3;
-     background-color: #245a81; */
-}
 
 a{
     color: black;
@@ -64,6 +134,10 @@ a > span {
 .location {
     min-width: 200px;
     margin-top: 10px;
+}
+
+.resume-line {
+    font-size: 12px;
 }
 
 .experience_content {
@@ -136,6 +210,7 @@ a > span {
 .tags{
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .tag {
@@ -145,3 +220,83 @@ a > span {
     padding: 3px 5px;
     color: #0074cc;
 }
+
+.project_link {
+    font-size: 12px;
+}
+
+
+@media only screen and (max-width: 868px) {
+    body {
+        width: 100%;
+    }
+
+    .main {
+        max-width: 100%;
+        margin: auto;
+        padding: 10px 10px;
+    }
+
+    ul {
+        padding-left: 12px;
+        font-size: 10px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .reactjs {
+        font-size: 14px;
+        color: #0074cc;
+    }
+
+    .location {
+        min-width: 140px;
+    }
+
+    .resume-line {
+        font-size: 8px;
+
+    }
+
+    .heading {
+        font-size: 14px;
+    }
+
+    .position > span {
+        font-size: 12px;
+    }
+
+    .date {
+        font-size: 8px;
+    }
+
+    .company > span {
+        font-size: 10px;
+    }
+
+    .tag {
+        font-size: 10px;
+    }
+
+    .project_header{
+        gap: 10px;
+    }
+
+    .project_name {
+        font-size: 14px;
+    }
+
+    .project_link {
+        font-size: 8px;
+    }
+
+    .degree {
+        font-size: 12px;
+    }
+    .college {
+        font-size: 10px;
+    }
+}
+
