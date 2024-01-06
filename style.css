@@ -226,7 +226,7 @@ a > span {
 }
 
 .project_video {
-    max-width: 1000px;
+    max-width: 100%;
 }
 
 @media only screen and (max-width: 868px) {
@@ -302,8 +302,6 @@ a > span {
         font-size: 10px;
     }
 
-    .project_video {
-        max-width: 300px;
-    } 
+
 }
 
