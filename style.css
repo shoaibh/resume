@@ -104,7 +104,7 @@ a > span {
 }
 
 .main > div {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .header {
@@ -214,7 +214,7 @@ a > span {
 }
 
 .tag {
-    font-size: 14px;
+    font-size: 12px;
     border: 1px solid #dbdbdb;
     border-radius: 6px;
     padding: 3px 5px;

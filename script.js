@@ -4,7 +4,7 @@ document.getElementById("downloadPdf").addEventListener("click", function () {
   // // Configuration for html2pdf
   // const options = {
   //   margin: 0,
-  //   filename: "converted-document.pdf",
+  //   filename: "shoaib-hamza-resume.pdf",
   //   image: { type: "jpeg", quality: 1 },
   //   html2canvas: { scale: 3 },
   //   jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
