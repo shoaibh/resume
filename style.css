@@ -15,9 +15,12 @@ body {
 }
 
 @media print {
+    #downloadPdf {
+        display: none;
+    }
     main {
         width: 8.27in;
-        margin: 1in;
+        margin: 0.5in;
     }
 
     ul {
@@ -71,7 +74,7 @@ body {
     }
 
     .degree {
-        font-size: 16px;
+        font-size: 14px;
     }
     .college {
         font-size: 14px;
@@ -198,7 +201,12 @@ a > span {
 
 .degree{
    color: #0074cc; 
-   font-size: 16px;
+   font-size: 14px;
+}
+
+.degree_year{
+    display: flex;
+    justify-content: space-between;
 }
 
 .college {

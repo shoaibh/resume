@@ -1,7 +1,7 @@
 document.getElementById("downloadPdf").addEventListener("click", function () {
-  // const element = document.getElementById("content-to-convert");
+  const element = document.getElementById("content-to-convert");
 
-  // // Configuration for html2pdf
+  // Configuration for html2pdf
   // const options = {
   //   margin: 0,
   //   filename: "shoaib-hamza-resume.pdf",
@@ -13,6 +13,9 @@ document.getElementById("downloadPdf").addEventListener("click", function () {
 
   // html2pdf().from(element).set(options).save();
 
+  const downloadButton = document.getElementById("downloadPdf");
+  downloadButton.style.display="none"
+
   const el = document.createElement("a");
   el.href = "shoaib-hamza-resume.pdf";
   el.download = "shoaib-hamza-resume.pdf";
@@ -20,4 +23,5 @@ document.getElementById("downloadPdf").addEventListener("click", function () {
 
   el.click();
   document.body.removeChild(el);
+  downloadButton.style.display="none"
 });
