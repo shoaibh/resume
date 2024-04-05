@@ -14,14 +14,14 @@ document.getElementById("downloadPdf").addEventListener("click", function () {
   // html2pdf().from(element).set(options).save();
 
   const downloadButton = document.getElementById("downloadPdf");
-  downloadButton.style.display="none"
+  downloadButton.style.display = "none";
 
   const el = document.createElement("a");
   el.href = "shoaib-hamza-resume.pdf";
-  el.download = "shoaib-hamza-resume.pdf";
+  el.download = "Shoaib-Hamza-Resume-Frontend.pdf";
   document.body.appendChild(el);
 
   el.click();
   document.body.removeChild(el);
-  downloadButton.style.display="none"
+  downloadButton.style.display = "none";
 });
