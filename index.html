@@ -1,288 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Your Name - Resume</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name - Resume</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-        <!-- Link to external JavaScript file -->
-        <script src="script.js" defer></script>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js" defer></script>
 
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        />
-    </head>
-    <body>
-        <button id="downloadPdf">Download PDF</button>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <button id="downloadPdf">Download PDF</button>
 
-        <div class="main" id="content-to-convert">
-            <div class="header">
-                <div>
-                    <span class="name">Shoaib Hamza</span>
-                    <div class="reactjs">
-                        Frontend Developer with over 5 years of experience
-                        creating efficient and scalable web applications
-                    </div>
-                </div>
-                <div class="location">
-                    <div class="resume-line">
-                        <a
-                            href="mailto:Shoaibhamza896@gmail.com"
-                            target="_blank"
-                            class="icon"
-                            style="text-decoration: none"
-                        >
-                            <i class="far fa-envelope"></i>
-                            <span>Shoaibhamza896@gmail.com</span>
-                        </a>
-                    </div>
-                    <div class="resume-line">
-                        <a
-                            href="tel:+917532020843"
-                            target="_blank"
-                            class="icon"
-                            style="text-decoration: none"
-                        >
-                            <i class="fas fa-phone"></i>
-                            <span>+917532020843</span>
-                        </a>
-                    </div>
-                    <div class="resume-line">
-                        <a
-                            target="_blank"
-                            class="icon"
-                            style="text-decoration: none"
-                        >
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span style="margin-left: 8px">Delhi, India</span>
-                        </a>
-                    </div>
-                    <div class="resume-line">
-                        <a
-                            href="https://in.linkedin.com/in/shoaib-hamza-86365b150"
-                            target="_blank"
-                            class="icon"
-                            style="text-decoration: none"
-                        >
-                            <i class="fab fa-linkedin"></i>
-                            <span>Shoaib Hamza</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="summary">
-                <div class="heading">SUMMARY</div>
-                <div>
-                    <ul>
-                        <li>
-                            Frontend developer with over 5 years of experience
-                            working with Reactjs, Typescript, Nextjs and other
-                            technologies. Proficient in utilizing
-                            industry-standard tools such as Git, Jira, Miro, and
-                            Slack to streamline development processes.
-                        </li>
-                        <li>
-                            Proficient in managing extensive codebases across
-                            various projects, ensuring scalability,
-                            maintainability, and adherence to coding best
-                            practices.
-                        </li>
-                        <li>
-                            Hands-on experience with backend technologies,
-                            including Node.js and Python Flask.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="experience">
-                <div class="heading">EXPERIENCE</div>
-                <div class="experience_content">
-                    <div class="position">
-                        <span>Frontend Developer</span>
-
-                        <div class="date">
-                            <i class="fas fa-calendar"></i
-                            ><span>March 2022 - Present</span>
-                        </div>
-                    </div>
-                    <div class="company">
-                        <span>BITCS</span>
-                    </div>
-
-                    <ul>
-                        <li>
-                            Working in Frontend with ReactJS, NextJS,
-                            React-Query, Context, Redux and various other
-                            Frontend libraries.
-                        </li>
-                        <li>
-                            Led and mentored a team of three junior developers
-                            to successfully develop the newer frontend for
-                            <a href="https://codersera.com/">Codersera</a>
-                            utilizing Next.js and implemented a blog platform
-                            using Ghost Content API. The website manages upto 2
-                            millions of users weekly.
-                        </li>
-                        <li>
-                            Currently working on an Insurance Website project
-                            which focuses on Prior Authorizations.
-                        </li>
-                    </ul>
-                </div>
-                <div class="experience_content">
-                    <div class="position">
-                        <span>Frontend Developer </span>
-                        <div class="date">
-                            <i class="fas fa-calendar"></i>
-                            <span>November 2018 - May 2020</span>
-                        </div>
-                    </div>
-                    <div class="company">
-                        <span>Changa</span>
-                    </div>
-
-                    <ul>
-                        <li>
-                            Contributed to the development of the backend
-                            infrastructure using Reactjs and Node.js for
-                            <a
-                                href="https://play.google.com/store/apps/details?id=com.bitcs.desitalent&hl=en_IN&gl=US"
-                                >Changa</a
-                            >, a platform with 20,000 active daily users.
-                            Additionally, spearheaded the development of the
-                            frontend for the Changa website.
-                        </li>
-                        <li>
-                            Working in Frontend with ReactJS, NextJS,
-                            React-Query, Context, Redux and various other
-                            Frontend libraries.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="tech_stack">
-                <div class="heading">TECH Stack</div>
-                <div class="tags">
-                    <div class="tag">Reactjs</div>
-                    <div class="tag">Nextjs</div>
-                    <div class="tag">Typescript</div>
-                    <div class="tag">Javascript</div>
-                    <div class="tag">Nodejs</div>
-                    <div class="tag">Redux</div>
-                    <div class="tag">React-Query</div>
-                    <div class="tag">PostgreSQL</div>
-                    <div class="tag">Redis</div>
-                    <div class="tag">HTML</div>
-                    <div class="tag">CSS</div>
-                    <div class="tag">TailwindCSS</div>
-                    <div class="tag">Git</div>
-                    <div class="tag">Playwright</div>
-                    <div class="tag">Jest</div>
-                    <div class="tag">Webpack/Vite</div>
-                    <div class="tag">Docker</div>
-                    <div class="tag">Lighthouse</div>
-                </div>
-            </div>
-
-            <div class="projects">
-                <div class="heading">Projects</div>
-                <div class="project_header">
-                    <div class="project_name">Portfolio</div>
-                    <div class="project_link">
-                        <i class="fab fa-github"></i>
-
-                        <a
-                            href="https://github.com/Musicroom-s"
-                            style="color: black"
-                            target="_blank"
-                        >
-                            https://github.com/shoaibh/Portfolio
-                        </a>
-                    </div>
-                    <div class="project_link">
-                        <i class="fa-solid fa-laptop"></i>
-
-                        <a
-                            href="https://shoaib-hamza-portfolio.vercel.app/"
-                            style="color: black"
-                            target="_blank"
-                        >
-                            Live
-                        </a>
-                    </div>
-                </div>
-                <div class="description">
-                    <ul>
-                        <li>
-                            My Personal Portfolio made with NextJS 14, Three.js,
-                            Typescript, TailwindCSS, Framer Motion, Resend, and
-                            more.
-                        </li>
-                    </ul>
-                </div>
-                <div class="project_header">
-                    <div class="project_name">Musicroom</div>
-                    <div class="project_link">
-                        <i class="fab fa-github"></i>
-
-                        <a
-                            href="https://github.com/Musicroom-s"
-                            style="color: black"
-                            target="_blank"
-                        >
-                            https://github.com/Musicroom-s
-                        </a>
-                    </div>
-                    <div class="project_link">
-                        <i class="fa-solid fa-laptop"></i>
-
-                        <a
-                            href="https://shoaib-hamza-resume.vercel.app/project_video.html"
-                            style="color: black"
-                            target="_blank"
-                        >
-                            Project Demo
-                        </a>
-                    </div>
-                </div>
-                <div class="description">
-                    <ul>
-                        <li>
-                            A website where different users can login, create
-                            and join different rooms. Users can chat with each
-                            other and listen to music. Only the owner of the
-                            room can play the music but anyone can add it to the
-                            queue.
-                        </li>
-                        <li>
-                            Worked with Nextjs 13, Typescript, Next-Auth,
-                            Nodejs, MongoDB, websockets, Redis and other related
-                            technologies.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="education">
-                <div class="heading" style="margin-bottom: 5px">EDUCATION</div>
-                <div class="degree_year">
-                    <div class="degree">
-                        Bachelor of Technology in Computer Science
-                    </div>
-                    <div class="date">
-                        <i class="fas fa-calendar"></i
-                        ><span>August 2017 - July 2021</span>
-                    </div>
-                </div>
-                <div class="college">
-                    Netaji Subhas University of Technology, East Campus, Delhi
-                </div>
-            </div>
+    <div class="main" id="content-to-convert">
+      <div class="header">
+        <div>
+          <span class="name">Shoaib Hamza</span>
+          <div class="reactjs">Frontend Developer with over 3 years of experience creating efficient and scalable web applications</div>
         </div>
-    </body>
+        <div class="location">
+          <div class="resume-line">
+            <a href="mailto:Shoaibhamza896@gmail.com" target="_blank" class="icon" style="text-decoration: none">
+              <i class="far fa-envelope"></i>
+              <span>Shoaibhamza896@gmail.com</span>
+            </a>
+          </div>
+          <div class="resume-line">
+            <a href="tel:+917532020843" target="_blank" class="icon" style="text-decoration: none">
+              <i class="fas fa-phone"></i>
+              <span>+917532020843</span>
+            </a>
+          </div>
+          <div class="resume-line">
+            <a target="_blank" class="icon" style="text-decoration: none">
+              <i class="fas fa-map-marker-alt"></i>
+              <span style="margin-left: 8px">Delhi, India</span>
+            </a>
+          </div>
+          <div class="resume-line">
+            <a href="https://in.linkedin.com/in/shoaib-hamza-86365b150" target="_blank" class="icon" style="text-decoration: none">
+              <i class="fab fa-linkedin"></i>
+              <span>Shoaib Hamza</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="summary">
+        <div class="heading">SUMMARY</div>
+        <div>
+          <ul>
+            <li>
+              Frontend developer with over 3 years of experience working with Reactjs, Typescript, Nextjs and other technologies. Proficient
+              in utilizing industry-standard tools such as Git, Jira, Miro, and Slack to streamline development processes.
+            </li>
+            <li>
+              Proficient in managing extensive codebases across various projects, ensuring scalability, maintainability, and adherence to
+              coding best practices.
+            </li>
+            <li>Hands-on experience with backend technologies, including Node.js and Python Flask.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="experience">
+        <div class="heading">EXPERIENCE</div>
+        <div class="experience_content">
+          <div class="position">
+            <span>Frontend Developer</span>
+
+            <div class="date"><i class="fas fa-calendar"></i><span>May 2020 - March 2021 (Intern), March 2021 - Present</span></div>
+          </div>
+          <div class="company">
+            <span>BITCS</span>
+          </div>
+
+          <ul>
+            <li>Working in Frontend with ReactJS, NextJS, React-Query, Context, Redux and various other Frontend libraries.</li>
+            <li>
+              Led and mentored a team of three junior developers to successfully develop the newer frontend for
+              <a href="https://codersera.com/">Codersera</a>
+              utilizing Next.js and implemented a blog platform using Ghost Content API. The website manages upto 2 millions of users
+              weekly.
+            </li>
+            <li>
+              Contributed to the development of the backend infrastructure using Node.js for Changa, a platform with 20,000 active daily
+              users. Additionally, spearheaded the development of the frontend for the Changa website.
+            </li>
+          </ul>
+        </div>
+        <div class="experience_content">
+          <div class="position">
+            <span>Frontend Developer </span>
+            <div class="date">
+              <i class="fas fa-calendar"></i>
+              <span>November 2019 - May 2020</span>
+            </div>
+          </div>
+          <div class="company">
+            <span>StepUp Analytics</span>
+          </div>
+
+          <ul>
+            <li>
+              Collaborated on both frontend and backend development using React.js and Node.js to create the StepUp Analytics EdTech
+              website, which boasted several hundred active users daily.
+            </li>
+            <li>
+              Collaborated with a team of three developers to create a website facilitating course purchases for students. Implemented
+              Stripe for seamless payment integration.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tech_stack">
+        <div class="heading">TECH Stack</div>
+        <div class="tags">
+          <div class="tag">Reactjs</div>
+          <div class="tag">Nextjs</div>
+          <div class="tag">Typescript</div>
+          <div class="tag">Javascript</div>
+          <div class="tag">Nodejs</div>
+          <div class="tag">Redux</div>
+          <div class="tag">React-Query</div>
+          <div class="tag">PostgreSQL</div>
+          <div class="tag">Redis</div>
+          <div class="tag">HTML</div>
+          <div class="tag">CSS</div>
+          <div class="tag">TailwindCSS</div>
+          <div class="tag">Git</div>
+          <div class="tag">Playwright</div>
+          <div class="tag">Jest</div>
+          <div class="tag">Webpack/Vite</div>
+          <div class="tag">Docker</div>
+          <div class="tag">Lighthouse</div>
+        </div>
+      </div>
+
+      <div class="projects">
+        <div class="heading">Projects</div>
+        <div class="project_1">
+          <div class="project_header">
+            <div class="project_name">Portfolio</div>
+            <div class="project_link">
+              <i class="fab fa-github"></i>
+
+              <a href="https://github.com/Portfolio" style="color: black" target="_blank"> https://github.com/shoaibh/Portfolio </a>
+            </div>
+            <div class="project_link">
+              <i class="fa-solid fa-laptop"></i>
+
+              <a href="https://shoaib-hamza-portfolio.vercel.app/" style="color: black" target="_blank"> Live </a>
+            </div>
+          </div>
+          <div class="description">
+            <ul>
+              <li>My Personal Portfolio showing the projects and experience I have.</li>
+              <li>
+                Made with NextJS 14, Three.js, Typescript, TailwindCSS, Framer Motion, Resend, and more. The Starry background was created
+                with Three.js
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="project_2">
+          <div class="project_header">
+            <div class="project_name">Streamify</div>
+            <div class="project_link">
+              <i class="fab fa-github"></i>
+
+              <a href="https://github.com/Musicroom-s" style="color: black" target="_blank"> https://github.com/shoaibh/streamify </a>
+            </div>
+            <div class="project_link">
+              <i class="fa-solid fa-laptop"></i>
+
+              <a href="https://streamify-hazel.vercel.app" style="color: black" target="_blank"> Live </a>
+            </div>
+          </div>
+          <div class="description">
+            <ul>
+              <li>
+                A Data Dashboard for users to check which artist got the most streams in a period of time. User can analyse using different
+                graphs and table.
+              </li>
+              <li>Worked with Reactjs (Vite), Typescript, TailwindCSS, recharts, react-date-picker, Shadcn, and other technologies.</li>
+              <li>Data created with fakerjs and the backend is created using vercel serverless technology.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="page-break"></div>
+        <div class="project_3">
+          <div class="project_header">
+            <div class="project_name">Musicroom</div>
+            <div class="project_link">
+              <i class="fab fa-github"></i>
+
+              <a href="https://github.com/Musicroom-s" style="color: black" target="_blank"> https://github.com/Musicroom-s </a>
+            </div>
+            <div class="project_link">
+              <i class="fa-solid fa-laptop"></i>
+
+              <a href="https://shoaib-hamza-resume.vercel.app/project_video.html" style="color: black" target="_blank"> Project Demo </a>
+            </div>
+          </div>
+          <div class="description">
+            <ul>
+              <li>
+                A website where different users can login, create and join different rooms. Users can chat with each other and listen to
+                music. Only the owner of the room can play the music but anyone can add it to the queue.
+              </li>
+              <li>Worked with Nextjs 13, Typescript, Next-Auth, Nodejs, MongoDB, websockets, Redis and other related technologies.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="education">
+        <div class="heading" style="margin-bottom: 5px">EDUCATION</div>
+        <div class="degree_year">
+          <div class="degree">Bachelor of Technology in Computer Science</div>
+          <div class="date"><i class="fas fa-calendar"></i><span>August 2017 - July 2021</span></div>
+        </div>
+        <div class="college">Netaji Subhas University of Technology, East Campus, Delhi</div>
+      </div>
+    </div>
+  </body>
 </html>
